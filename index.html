@@ -2,35 +2,37 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <title>Pousada Secreta</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <div>
-                <a href="index.html">Pousada <span>Secreta</span></a>
-                <div>
-                    <a href="#sobre">SOBRE</a>
-                    <a href="#rota">ROTA</a>
-                    <a href="#">QUARTOS</a>
-                </div>        
+        <header class="topo">
+            <div class="container">
+                <a class="logotipo" href="index.html">Pousada <span>Secreta</span></a>
+                <nav>
+                    <a class="link-topo" href="#sobre">SOBRE</a>
+                    <a class="link-topo" href="#rota">ROTA</a>
+                    <a class="link-topo" href="#">QUARTOS</a>
+                </nav>        
             </div>
         </header>
 
-        <div class="conteudo-principal">
-            <div>
+        <article class="container conteudo-principal">
+            <section>
                 <div class="pousada-secreta">
                     <h1>Pousada Secreta</h1>
                     <p>A pousada reservada em Angra dos Reis.</p>
                 </div>
-            </div>
+            </section>
 
-            <div class="bem-vindo">
+            <section class="bem-vindo">
                 <h2>SEJA BEM VINDO(A)!</h2>
                 <p>Relaxe em nossas acomodações e curta o melhor em Angra dos Reis.</p>
                 <p>Temos quartos para solteiro, casal ou família.</p>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <div>
                     <img src="assets/quarto-solteiro1.jpg" alt="Cama de Solteiro">
                     <a href="#">Quarto de Solteiro</a>
@@ -45,7 +47,7 @@
                     <img src="assets/quarto-familia1.jpg" alt="Camas de Familia">
                     <a href="">Quarto de Família</a>
                 </div>
-            </div>
+            </section>
 
             <div id="rota" class="rota">
                 <h2>ROTA</h2>
@@ -62,7 +64,7 @@
                 <p>Conheça um pouco sobre nossa pousada.</p>
             </div>
 
-            <div>
+            <section>
                 <div>
                     <div>
                         <h3>A Pousada</h3>
@@ -94,8 +96,9 @@
                     </div>
                     <img src="assets/img4.jpg" alt="">
                 </div>
-            </div>
-        </div>
+            </section>
+        </article>
+        
         <footer>
             <div>
                 <div>

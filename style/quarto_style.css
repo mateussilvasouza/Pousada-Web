@@ -1,0 +1,49 @@
+
+.imagem-fundo{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    background-clip: border-box;
+    background-size: cover;
+}
+.container-quartos.quartos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: none;
+    margin: 60px 0;
+}
+
+.img-quartos{
+    width: 33%;
+    margin-right: 2px;
+}
+
+.img-quartos:last-child{
+    margin-right: 0;
+}
+
+.img-quartos img{
+    width: 100%;
+    max-height: 203px;
+    object-fit: cover;
+}
+
+.info-quartos h5{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info-quartos ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-quartos ul li{
+    width: 25%;
+    text-align: left;
+    padding-bottom: 20px;
+}
